@@ -23,3 +23,4 @@ end
 assign_rooms(speakers).each do |x|
   puts x
 end
+end
