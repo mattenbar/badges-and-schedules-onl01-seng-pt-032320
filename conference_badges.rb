@@ -17,6 +17,6 @@ def assign_rooms (speakers)
 end
 
 def printer(speakers)
-  new_array =  speakers.collect{|x| "Hello, my name is #{x}."}
-  puts new_array
+  puts speakers.collect{|x| "Hello, my name is #{x}."}
+
 end
