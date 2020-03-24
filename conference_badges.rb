@@ -6,5 +6,5 @@ end
 speakers = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
 
 def batch_badge_creator(array)
-  return array.each{|x| "Hello, my name is #{name}."}
+  return array.each{|x| "Hello, my name is #{x}."}
 end
