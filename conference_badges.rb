@@ -12,4 +12,5 @@ end
 
 def assign_rooms (speakers)
   new_array =  speakers.each_with_index{|x , y| "Hello, #{x}! You'll be in room #{y}!"}
+  return new_array
 end
