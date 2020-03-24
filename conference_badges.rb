@@ -18,8 +18,8 @@ end
 
 def printer(speakers)
   new_array =  speakers.collect{|x| "Hello, my name is #{x}."}
-  print new_array
+  puts new_array
   second_array = []
   speakers.each_with_index {|item , index| second_array << "Hello, #{item}! You'll be assigned to room #{index+1}!"}
-  print second_array
+  puts second_array
 end
